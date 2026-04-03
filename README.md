@@ -87,10 +87,10 @@ Der Heimanbieter vergibt dynamisch neue IP-Adressen — nach jedem Wechsel war d
 
 ```bash
 # /etc/cron.d/duckdns
-*/5 * * * * root curl -s "https://www.duckdns.org/update?domains=vlad-vpn&token=<TOKEN>&ip=" > /dev/null
+*/5 * * * * root curl -s "https://www.duckdns.org/update?domains=example-vpn&token=<TOKEN>&ip=" > /dev/null
 ```
 
-Domain `vlad-vpn.duckdns.org` bleibt dauerhaft erreichbar, unabhängig von IP-Änderungen.
+Domain `example-vpn.duckdns.org` bleibt dauerhaft erreichbar, unabhängig von IP-Änderungen.
 
 ---
 
