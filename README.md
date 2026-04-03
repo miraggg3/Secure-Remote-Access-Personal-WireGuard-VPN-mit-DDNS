@@ -107,7 +107,7 @@ VPN-Tunnel funktioniert stabil von Android- und Windows-Clients. Kein DNS-Leak n
 | Verbindungslatenz (Heimnetz) | ~12 ms |
 | DNS-Update-Intervall | 5 Minuten |
 | DNS-Leaks | 0 |
-| Getestete Clients | Android, Windows 11 |
+| Getestete Clients | Apple iPhone, Windows 11 Pro |
 
 ---
 
