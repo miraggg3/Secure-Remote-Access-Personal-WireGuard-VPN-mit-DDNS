@@ -10,9 +10,7 @@ Selbst gehosteter, verschlüsselter VPN-Tunnel auf Ubuntu Server 24.04 LTS — m
 
 ## Was der Projekt macht
 
-Dieser Projekt realisiert einen vollständig selbst kontrollierten, verschlüsselten VPN-Tunnel vom Client-Gerät (Smartphone, Laptop) bis zum Heimserver. Statt eines kommerziellen Dienstes wie NordVPN läuft der Server auf einer eigenen Ubuntu-VM.
-
-Der gesamte Internetverkehr wird durch den Tunnel geleitet — öffentliche Netze sehen nur verschlüsselte Pakete. Websites sehen die Heimadresse, nicht den tatsächlichen Standort.
+Dieses Projekt realisiert einen vollständig selbst kontrollierten, verschlüsselten VPN-Tunnel vom Client-Gerät (Smartphone, Laptop) bis zum Heimnetzwerk. Es dient als sicherer "Home VPN" – der gesamte Internetverkehr aus unsicheren öffentlichen WLAN-Netzen wird verschlüsselt durch den Tunnel nach Hause geleitet. Zudem ermöglicht es einen sicheren Remote-Zugriff auf lokale Geräte im Heimnetzwerk.
 
 ---
 
@@ -43,11 +41,12 @@ Der gesamte Internetverkehr wird durch den Tunnel geleitet — öffentliche Netz
 | Komponente | Beschreibung |
 |---|---|
 | **Ubuntu Server 24.04 LTS** | Betriebssystem ohne GUI. Gesamte Konfiguration ausschließlich über SSH und Kommandozeile. |
-| **WireGuard** | Modernes VPN-Protokoll direkt im Linux-Kernel. Asymmetrische Kryptographie mit Public/Private-Key-Paaren. Schneller und schlanker als OpenVPN oder IPsec. |
+| **WireGuard** | Modernes VPN-Protokoll direkt im Linux-Kernel. Asymmetrische Kryptographie mit Public/Private-Key-Paaren. |
 | **DuckDNS (DDNS)** | Kostenloser Dynamic-DNS-Dienst. Cron-Job aktualisiert automatisch die IP-Adresse hinter dem Domainnamen, wenn der Heimanbieter eine neue IP vergibt. |
 | **Port Forwarding** | Konfiguration am Heimrouter: eingehender UDP-Traffic auf Port 51820 wird direkt an die interne IP der Ubuntu-VM weitergeleitet. |
 | **UFW (Uncomplicated Firewall)** | Firewall-Regeln auf dem Ubuntu-Server: nur Port 51820 UDP offen, alle anderen eingehenden Verbindungen blockiert. |
 
+![FritzBox Portfreigabe]
 ---
 
 ## Ziele des Projekts
