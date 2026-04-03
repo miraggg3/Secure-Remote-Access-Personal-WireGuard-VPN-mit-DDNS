@@ -23,7 +23,7 @@ Der gesamte Internetverkehr wird durch den Tunnel geleitet — öffentliche Netz
         |
         | WireGuard UDP (verschlüsselt)
         v
-[DuckDNS: vlad-vpn.duckdns.org]
+[DuckDNS: example-vpn.duckdns.org]
         |
         | DNS → dynamische Heim-IP
         v
