@@ -113,4 +113,4 @@ VPN-Tunnel funktioniert stabil von Android- und Windows-Clients. Kein DNS-Leak n
 
 ## Demonstrierte Kenntnisse
 
-`Linux CLI` `SSH` `Netzwerk-Routing` `UDP/TCP` `Firewall / UFW` `DNS / DDNS` `Public/Private Key` `Cron-Jobs` `NAT / Port Forwarding` `Systemd` `VirtualBox / VM` `Troubleshooting`
+`Linux CLI` `SSH` `Netzwerk-Routing` `UDP/TCP` `Firewall / UFW` `DNS / DDNS` `Public/Private Key` `NAT / Port Forwarding` `Hyper-V-Manager` `Troubleshooting`
