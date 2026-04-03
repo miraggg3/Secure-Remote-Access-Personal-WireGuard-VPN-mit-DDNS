@@ -46,7 +46,8 @@ Dieses Projekt realisiert einen vollständig selbst kontrollierten, verschlüsse
 | **Port Forwarding** | Konfiguration am Heimrouter: eingehender UDP-Traffic auf Port 51820 wird direkt an die interne IP der Ubuntu-VM weitergeleitet. |
 | **UFW (Uncomplicated Firewall)** | Firewall-Regeln auf dem Ubuntu-Server: nur Port 51820 UDP offen, alle anderen eingehenden Verbindungen blockiert. |
 
-![FritzBox Portfreigabe]
+<img width="1911" height="565" alt="fritzbox-port" src="https://github.com/user-attachments/assets/c2021845-fffb-46ba-9227-524878c5d32c" />
+
 ---
 
 ## Ziele des Projekts
@@ -95,7 +96,9 @@ Domain `example-vpn.duckdns.org` bleibt dauerhaft erreichbar, unabhängig von IP
 
 ### Ergebnis
 
-VPN-Tunnel funktioniert stabil von Android- und Windows-Clients. Kein DNS-Leak nachweisbar (getestet mit dnsleaktest.com).
+Der VPN-Tunnel funktioniert stabil von Apple iPhone- und Windows-Clients. Kein DNS-Leak nachweisbar. (getestet mit dnsleaktest.com).
+
+![2](https://github.com/user-attachments/assets/e0841a8d-bb82-4815-ae9c-c1518f663f9b)
 
 ---
 
