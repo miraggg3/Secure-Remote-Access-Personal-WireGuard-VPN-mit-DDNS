@@ -19,7 +19,7 @@ Der gesamte Internetverkehr wird durch den Tunnel geleitet — öffentliche Netz
 ## Architektur & Datenfluss
 
 ```
-[Client: Android / Windows]
+[Client: Apple iPhone / Windows]
         |
         | WireGuard UDP (verschlüsselt)
         v
@@ -107,7 +107,7 @@ VPN-Tunnel funktioniert stabil von Android- und Windows-Clients. Kein DNS-Leak n
 | Verbindungslatenz (Heimnetz) | ~12 ms |
 | DNS-Update-Intervall | 5 Minuten |
 | DNS-Leaks | 0 |
-| Getestete Clients | Apple iPhone, Windows 11 Pro |
+| Getestete Clients | Apple iPhone, Windows 11 |
 
 ---
 
