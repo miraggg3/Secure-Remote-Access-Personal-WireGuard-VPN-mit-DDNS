@@ -45,7 +45,7 @@ Dieses Projekt realisiert einen vollständig selbst kontrollierten, verschlüsse
 ---
 
 ## 🧠 Demonstrierte Kenntnisse
-`Linux CLI` `SSH` `Netzwerk-Routing` `UDP/TCP` `Firewall (UFW)` `DNS / DDNS` `Public/Private Key` `Cron-Jobs` `NAT / Port Forwarding` `Systemd` `VirtualBox` `Troubleshooting`
+`Linux CLI` `SSH` `Netzwerk-Routing` `UDP/TCP` `Firewall (UFW)` `DNS / DDNS` `Public/Private Key` `NAT / Port Forwarding` `Systemd` `Troubleshooting`
 
 ---
 
