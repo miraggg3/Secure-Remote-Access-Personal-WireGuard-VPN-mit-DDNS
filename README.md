@@ -98,7 +98,8 @@ Domain `example-vpn.duckdns.org` bleibt dauerhaft erreichbar, unabhängig von IP
 
 Der VPN-Tunnel funktioniert stabil von Apple iPhone- und Windows-Clients. Kein DNS-Leak nachweisbar. (getestet mit dnsleaktest.com).
 
-![2](https://github.com/user-attachments/assets/e0841a8d-bb82-4815-ae9c-c1518f663f9b)
+![2](https://github.com/user-attachments/assets/e1997ff4-2245-4d60-a515-51b9d388dcb0)
+
 
 ---
 
